@@ -2,6 +2,10 @@
 
 cd ~/CS1XA3/Project01
 
+if [ -e "merge.log" ]; then
+	rm merge.log
+fi
+
 echo "Welcome to the digital world"
 sleep 1s
 echo "What should I call you?"
