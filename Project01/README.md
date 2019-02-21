@@ -1,6 +1,6 @@
 # Project01
  ### Objective:
- To make a working script that performs the give features for the user.
+ To make a working script that performs the given features for the user.
  
 ### Features:
   - Create a TODO Log
