@@ -14,7 +14,7 @@
 ##### About the Script:
   - Since this file has an interactive base, you *__don't need__ to give it the __inputs__* as such, rather you 
 would be *__prompted to give__* the scripts your *inputs*
-  - To make it as __*interactive*__ as possible, there have been implemented a few *millisecond delays* within 
+  - To make it as __*interactive*__ and *__realistic__* as possible, there have been implemented a few *millisecond delays* within 
 each output.
   - I hope you like it!
 ##### How to use it:
