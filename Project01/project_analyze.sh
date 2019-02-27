@@ -67,11 +67,9 @@ if [ $script -eq 4 ]; then
 	echo "Sure thing, What directory would you like me to search? (We are Home right now!)"
 	read dir
 	cd ~/
-	tfiles=$(ls -l $dir | wc -l)
-	echo "You have $tfiles files in $dir"
-	tf=$(ls -l $dir | grep -c ^-)
-	td=$(ls -l $dir | grep -c ^d)
-	tl=$(ls -l $dir | grep -c ^l)
+	tf=$(ls -la $dir | grep -c ^-)
+	td=$(ls -la $dir | grep -c ^d)
+	tl=$(ls -la $dir | grep -c ^l)
 	a="Files: $tf"
 	b="Directories: $td"
 	c="Links: $tl"
