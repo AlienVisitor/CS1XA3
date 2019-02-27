@@ -64,7 +64,7 @@ if [ $script -eq 4 ]; then
 	if [ -e "item_count.log" ]; then
 		rm item_count.log
 	fi
-	echo "Sure thing, What directory would you like me to search? (absolute path is preferrable)"
+	echo "Sure thing, What directory would you like me to search? (We are Home right now!)"
 	read dir
 	cd ~/
 	tfiles=$(ls -l $dir | wc -l)
@@ -72,7 +72,12 @@ if [ $script -eq 4 ]; then
 	tf=$(ls -l $dir | grep -c ^-)
 	td=$(ls -l $dir | grep -c ^d)
 	tl=$(ls -l $dir | grep -c ^l)
-	"Files: $tf" > item_count.log
-	"Directories: $td" > item_count.log
-	"Links: $tl" > item_count.log
+	a="Files: $tf"
+	b="Directories: $td"
+	c="Links: $tl"
+	touch item_count.log
+	echo $a >> item_count.log
+	echo $b >> item_count.log
+	echo $c >> item_count.log
+	mv ./item_count.log ./CS1XA3/Project01/item_count.log
 fi
