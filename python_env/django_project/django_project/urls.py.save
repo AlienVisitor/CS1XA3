@@ -25,5 +25,5 @@ def hello_world(request):
     return HttpResponse(html)
 
 urlpatterns = [
-    path(root, include("testreq.urls")),
+    path(root, include("testpost.urls")),
 ]
