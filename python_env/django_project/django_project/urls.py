@@ -20,10 +20,6 @@ from django.http import HttpResponse
 
 root="e/gabah/"
 
-def hello_world(request):
-    html = "<html><body>Hello World</body></html>"
-    return HttpResponse(html)
-
 urlpatterns = [
     path(root, include("testreq.urls")),
 ]
