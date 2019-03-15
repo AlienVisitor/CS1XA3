@@ -5,5 +5,5 @@
  
 ### WebPageCV:
   - References:
-    https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
-    Blog : https://www.w3schools.com/booTsTrap/bootstrap_templates.asp
+    1. https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+    2. https://www.w3schools.com/booTsTrap/bootstrap_templates.asp
