@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!Submission>
 <html lang="en">
 <head>
   <title>CVWebPage</title>
@@ -14,8 +13,8 @@
     
     /* Set gray background color and 100% height */
     .sidenav {
-      background-color: #f1f1f1;
       height: 100%;
+      background-image: url("sky.jpg"); 
     }
     
     /* Set black background color, white text and some padding */
@@ -35,13 +34,14 @@
     }
     #elink { color: #50c465; }
     #llink { color: #03497f; }
+    #maincolor { background-color: #d1e4ff ; }
   </style>
 </head>
 <body>
 
 <div class="container-fluid">
   <div class="row content">
-    <div class="col-sm-3 sidenav">
+    <div id="sidenavcolor" class="col-sm-3 sidenav">
       <h3><b>Harshveer Gaba</b></h3>
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#section1">About</a></li>
@@ -54,9 +54,9 @@
       </ul><br>
     </div>
 
-    <div class="col-sm-9">
+    <div id="maincolor" class="col-sm-9">
       <a name="section1"></a>
-      <br><br>
+      <br><br><br>
       <h4><b><font id="llink">Who Am I? Where to find me?</font></b></h4>
       <p>
       I am an aspiring Computer Science student at McMaster University who has a <i>"big heart"</i> and a <i>"do it all"</i> attitude.
@@ -176,9 +176,8 @@
 </div>
 
 <footer class="container-fluid">
-  <p></p>
+  <p>Blog Bootstrap from w3schools.com</p>
 </footer>
 
 </body>
 </html>
-
