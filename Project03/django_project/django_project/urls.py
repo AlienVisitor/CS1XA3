@@ -1,3 +1,4 @@
+
 """django_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,14 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 
 from django.http import HttpResponse
 
-def hello_world(request):
-	html="<html><body>Hello World</body></html>"
-	return HttpResponse(html)
-
 urlpatterns = [
-    path('e/gabah/', hello_world),
+    path('e/gabah/', include('project03.urls')),
 ]
