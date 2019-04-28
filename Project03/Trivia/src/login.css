@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body {
+  background-color: #f8bbd0;
+  text-align: center;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #b7dfff;
+    color: Black;
+    border-color: #008cff;
+}
+
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #b7dfff;
+    color: Black;
+    border-color: #008cff;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: 'Righteous', serif;
+  font-size: 12rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px 1px #ef5350,
+               -8px 8px 1px #f48fb1,
+               -12px 12px 1px #7e57c2,
+               -16px 16px 1px #2196f3,
+               -20px 20px 1px #26c6da,
+               -24px 24px 1px #43a047,
+               -28px 28px 1px #eeff41,
+               -32px 32px 1px #f9a825,
+               -36px 36px 1px #ff5722;
+}
+
+button {
+    margin-top: 2rem;
+    font-family: monospace;
+    font-size: 2rem;
+    display: inline-block;
+    width: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    width: 12em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    border-width: 0.25em;
+    border-style: solid;
+    padding: 1em;
+    border-radius: 2px;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+button:first-of-type {
+  border-color: #FF0049;
+  background-color: #f8bbd0;
+}
