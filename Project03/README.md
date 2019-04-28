@@ -1,7 +1,7 @@
 # Project03
 
  ### Objective:
- To make a working webapp and login page, link them using 
+ To make a working webapp and login page, link them using Django and Sqlite3
  
 ### TriviaApp:
   - How To:
